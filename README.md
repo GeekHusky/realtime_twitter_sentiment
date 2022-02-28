@@ -1,6 +1,16 @@
-# realtime_twitter_sentiment
+# Realtime twitter sentiment
 
-This package contains two parts:
+## Introduction
+
+This is a course project we did for sentiment analysis on twitter data with spark streaming.
+
+## Content
+
 1. History twitter data download using Scala with Twitter4j
+    - language: Scala
+    - library: Twitter4j
 
-2. A realtime twitter sentiment analysis through Spark Streaming. The model used is SVM model trained with pyspark.mlib.
+2. A realtime twitter sentiment analysis through Spark Streaming. The model we're currently using is ensembled SVM model.
+    - language: Python
+    - library: pyspark.mllib, pyspark.streaming
+    - dataset is labeled by "Emoticon trick"
